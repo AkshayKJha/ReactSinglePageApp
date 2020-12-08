@@ -36,11 +36,14 @@ function TopNav({user})  {
             </Col>
             <Col>
             <p> Second</p>
-            <NavDropdown.Item as={Link} to="comp1">
-              Component1
+            <NavDropdown.Item as={Link} to="comp3">
+              Component3
             </NavDropdown.Item>
-            <NavDropdown.Item as={Link} to="comp2">
-              Component2
+            <NavDropdown.Item as={Link} to="comp4">
+              Component4
+            </NavDropdown.Item>
+            <NavDropdown.Item as={Link} to="comp5">
+              Component5
             </NavDropdown.Item>
             </Col>
            </Row>
